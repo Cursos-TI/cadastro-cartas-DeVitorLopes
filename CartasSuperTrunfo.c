@@ -12,8 +12,8 @@ int main() {
     int populacaoc1;
     int turisticoc1;
     float areac1;
-    float pibc1;
-    float pibc1percapita;
+    int pibc1;
+    int pibc1percapita;
     float densidadec1;
     
     // VARIAVEIS CARTA 2
@@ -23,8 +23,8 @@ int main() {
     int populacaoc2;
     int turisticoc2;
     float areac2;
-    float pibc2;
-    float pibc2percapita;
+    int pibc2;
+    int pibc2percapita;
     float densidadec2;
 
     //INICIO DO CODIGO
@@ -55,7 +55,7 @@ int main() {
         scanf("%f", &areac1);
 
         printf("Digite o PIB da cidade: ");
-        scanf("%f", &pibc1);
+        scanf("%d", &pibc1);
 
         printf("Digite número de pontos turísticos da cidade: ");
         scanf("%d", &turisticoc1);
@@ -94,7 +94,7 @@ int main() {
         scanf("%f", &areac2);
 
         printf("Digite o PIB da cidade: ");
-        scanf("%f", &pibc2);
+        scanf("%d", &pibc2);
 
         printf("Digite número de pontos turísticos da cidade: ");
         scanf("%d", &turisticoc2);
@@ -120,7 +120,7 @@ int main() {
         printf("PIB: %.2f bilhões de reais \n", pibc1);
         printf("NÚMERO DE PONTOS TURISTICOS: %d \n", turisticoc1);
         printf("DENSIDADE POPULACIONAL: %.2f hab/km² \n", densidadec1);
-        printf("PIB per capita: %.2f Reais \n", pibc1percapita);
+        printf("PIB per capita: %d Reais \n", pibc1percapita);
     //-----------------------------------------------------------------
     //CARTA NUMERO 2
     printf("---------------------------------- \n");
@@ -134,7 +134,7 @@ int main() {
         printf("PIB: %.2f bilhões de reais \n", pibc2);
         printf("NÚMERO DE PONTOS TURISTICOS: %d \n", turisticoc2);
         printf("DENSIDADE POPULACIONAL: %.2f hab/km² \n", densidadec2);
-        printf("PIB per capita: %.2f Reais \n", pibc2percapita);
+        printf("PIB per capita: %d Reais \n", pibc2percapita);
 
 
     return 0;
